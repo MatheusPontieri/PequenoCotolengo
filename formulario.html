@@ -1,194 +1,220 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-    <title>Formulário | PC</title>
-    <link rel="stylesheet" href="css/formulario.css">
-    <img src="img/logopequenocotolengo.png" width="300" alt="">
-</head>
-<body>
-    <div class="box">
-        <form action="">
-            <fieldset>
-                <legend><b>INCRIÇÃO PARA VOLUNTÁRIOS</b></legend>
-                <br>
-                <div class="central">
-                    <p><h2>PEQUENO COTOLENGO DE PALMAS</h2></p>
-                    <br>
-                </div>
-
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+        <title>Formulário | PC</title>
+        <link rel="shortcut icon" href="img/icon-pequenocotolengo.ico" type="image/x-icon">
+        <link rel="stylesheet" href="css/formulario.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <img id="logopequenocotolengo" src="img/logopequenocotolengo.png" alt="LogoPequenoCotolengo">
+                <div class="menu">
+                    <a href="formulario.html">Formulário</a>
+                    <a href="contato.html" >Contatos</a>
+                    <a href="amigo.html">Amigo 10</a>
+                </div>  <!--menu-->
+            </nav> 
+            <div class="box1">
+                
+                <h2 id="legend1">Trabalhe Conosco</h2>
+    
                 <p>Organização sem fins lucrativos.</p>
                 <p>Nossa missão é acolher e cuidar de jovens adultos com Deficiência Intelectual.</p>
-                <p>Clique em cima das logo para entrar em contato conosco e nos conhecer melhor </p>
+                <p>Ajude-nos a fazer a diferença na vida de pessoas com deficiência intelectual! Preencha nosso formulário de ajuda e apoio e contribua para uma causa que promove inclusão e igualdade para todos. 
+                   Sua participação é fundamental para fornecer suporte e recursos diários e para está fazendo a diferença na vivas do proximo. </p>
+            </div>           
+        </header>
+
+        <section>
+            <div class="box">
+                <form>
+                    <fieldset>
+
+                        <legend id="legend2"><b>INCRIÇÃO PARA VOLUNTÁRIOS</b></legend>
+
+                        <h4>Insira seus dados abaixo e informe no que você deseja ajudar:</h4>
+
+                        <p>Obrigatório*</p>
+
+                        <br>
+
+                        <div class="inputBox">
+                            <input type="text" name="nome" id="nome" class="inputUser" required>
+                            <label for="nome" class="labelInput">Nome completo</label>
+                        </div>
+
+                        <br><br>
+
+                        <div class="inputBox">
+                            <input type="text" name="email" id="email" class="inputUser" required>
+                            <label for="email" class="labelInput">E-mail</label>
+                        </div>
+
+                        <br><br>
+
+                        <div class="inputBox">
+                            <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+                            <label for="telefone" class="labelInput">Telefone</label>
+                        </div>
+
+                        <br><br>
+
+                        <div class="inputBox">
+                            <input type="text" name="instagram" id="intagram" class="inputUser" required>
+                            <label for="instagram" class="labelInput">Instagram</label>
+                        </div>
+
+                        <br><br>
+
+                        <div class="inputBox">
+                            <input type="text" name="cidade" id="cidade" class="inputUser" required>
+                            <label for="cidade" class="labelInput">Cidade</label>
+                        </div>
+
+                        <br><br>
+
+                        <div class="inputBox">
+                            <input type="text" name="estado" id="estado" class="inputUser" required>
+                            <label for="estado" class="labelInput">Estado</label>
+                        </div>
+
+                        <br><br>
+
+                        <div class="inputBox">
+                            <input type="text" name="endereco" id="endereco" class="inputUser" required>
+                            <label for="endereco" class="labelInput">Endereço</label>
+                        </div>
+                        <br><br>
+                            <label for="data_nascimento"><b>Data de Nascimento:</b></label>
+                            <input type="date" name="data_nascimento" id="data_nascimento" required>
+                        <br>
+                        <p>Sexo:</p>
+                            <input type="radio" id="feminino" name="genero" value="feminino" required>
+                            <label for="feminino">Feminino</label>
+                        <br>
+                            <input type="radio" id="masculino" name="genero" value="masculino" required>
+                            <label for="masculino">Masculino</label>
+                        <br>
+                            <input type="radio" id="outro" name="genero" value="outro" required>
+                            <label for="outro">Outro</label>
+
+                        <br>
+                        
+                        <p><b><h3>Àreas de atuação * </h3></b></p>
+                        <p><h5>Marque todas que se aplicam:</h5></p>
+
+                            <input type="checkbox" id="comunicacao" name="comunicacao" value="comunicacao" required>
+                            <label for="comunicacao">Comunicação</label>
+                        <br>
+                            <input type="checkbox" id="quitanda" name="quitanda" value="quitanda" required>
+                            <label for="quitanda">Quitanda</label>
+                        <br>
+                            <input type="checkbox" id="bazar" name="bazar" value="bazar" required>
+                            <label for="bazar">Bazar</label>
+                        <br>
+                            <input type="checkbox" id="telemarketing" name="telemarketing" value="telemarketing" required>
+                            <label for="telemarketing">Telemarketing</label>
+                        <br>
+                            <input type="checkbox" id="gestaodeprojetos" name="gestaodeprojetos" value="gestaodeprojetos" required>
+                            <label for="gestaodeprojetos">Gestão de Projetos e Captação de Recursos</label>
+                        <br>
+                            <input type="checkbox" id="fisioterapeuta" name="fisioterapeuta" value="fisioterapeuta" required>
+                            <label for="fisioterapeuta">Fisioterapeuta</label>
+                        <br>
+                            <input type="checkbox" id="psicologo" name="psicologo" value="psicologo" required>
+                            <label for="psicologo">Psicólogo</label>
+                        <br>
+                            <input type="checkbox" id="profissionaleducacaofis" name="profissionaleducacaofis" value="profissionaleducacaofis" required>
+                            <label for="profissionaleducacaofis">Profissional de Educação Física</label>
+                        <br>
+                            <input type="checkbox" id="enfermeira" name="enfermeira" value="enfermeira" required>
+                            <label for="enfermeira">Enfermeira</label>
+                        <br>
+                            <input type="checkbox" id="tecnicoenfermagem" name="tecnicoenfermagem" value="tecnicoenfermagem" required>
+                            <label for="tecnicoenfermagem">Técnico de Enfermagem</label>
+                        <br>
+                            <input type="checkbox" id="auxiliarlimpeza" name="auxiliarlimpeza" value="auxiliarlimpeza" required>
+                            <label for="auxiliarlimpeza">Auxiliar de Limpeza</label>
+                        <br>
+                            <input type="checkbox" id="monitoria" name="monitoria" value="monitoria" required>
+                            <label for="monitoria">Monitoria</label>
+                        <br>
+                            <input type="checkbox" id="transportes" name="transportes" value="transportes" required>
+                            <label for="transportes">Transportes</label>
+                        <br>
+                            <input type="checkbox" id="fonaudiologa" name="fonaudiologa" value="fonaudiologa" required>
+                            <label for="fonaudiologa">Fonoaudióloga (o)</label>
+                        <br>
+                            <input type="checkbox" id="outros" name="outros" value="outros" required>
+                            <label for="outros">Outros</label>
+
+                        <br>
+
+                        <p><b><h3>Disponibilidade * </h3></b></p>
+                        <p><h5>Marque todas que se aplicam:</h5></p>
+
+                            <input type="checkbox" id="segunda" name="segunda" value="segunda" required>
+                            <label for="segunda">Segunda-Feira</label>
+                        <br>
+                            <input type="checkbox" id="terca" name="terca" value="terca" required>
+                            <label for="terca">Terça-Feira</label>
+                        <br>
+                            <input type="checkbox" id="quarta" name="quarta" value="quarta" required>
+                            <label for="quarta">Quarta-Feira</label>
+                        <br>
+                            <input type="checkbox" id="quinta" name="quinta" value="quinta" required>
+                            <label for="quinta">Quinta-Feira</label>
+                        <br>
+                            <input type="checkbox" id="sexta" name="sexta" value="sexta" required>
+                            <label for="sexta">Sexta-Feira</label>
+                        <br>
+                            <input type="checkbox" id="sabado" name="sabado" value="sabado" required>
+                            <label for="sabado">Sábado</label>
+                        <br>
+                            <input type="checkbox" id="domingo" name="domingo" value="domingo" required>
+                            <label for="domingo">Domingo</label>
+                        <br><br><br>
+                        <div class="inputBox">
+                            <input type="text" name="observacao" id="observacao" class="inputUser" required>
+                            <label for="observacao" class="labelInput">Observação quanto a resposta anterior</label>
+                        </div>
+                        <br><br>
+                        <input type="submit" name="submit" id="submit">
+
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <div class="redesRodape">
+                <p> Clique em cima das logo para entrar em contato conosco e nos conhecer melhor:</p>
+                <ul>
+                    <li>
+                        <a href="https://api.whatsapp.com/send/?phone=5563981485588&text&type=phone_number&app_absent=0" target="_blank">
+                            <img src="img/whatsapp.png" alt="LogoWhatsapp"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/pequenocotolengo_/" target="_blank" >
+                            <img src="img/instagram.png" alt="LogoInstagram"></a> 
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/@pequenocotolengopalmas8136" target="_blank">
+                            <img src="img/youtube.png" alt="LogoYoutube"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.google.com/maps/dir//Centro+Comunit%C3%A1rio+Dom+Orione,+Rua+904+Sul+Av+Ns,+4+-+Plano+Diretor+Sul,+Palmas+-+TO,+77023-358" target="_blank" >
+                            <img src="img/mapa.png"  width="40" alt="localização pequeno cotolengo"></a>
+                    </li>
+                </ul>
                 
-                <div class="image-container">
-                    <a href="https://api.whatsapp.com/send/?phone=5563981485588&text&type=phone_number&app_absent=0" target="_blank"><img src="img/icons8-whatsapp.svg" width="80" height="50" alt="imagem 1"></a>
-                    <a href="https://www.instagram.com/pequenocotolengo_/" target="_blank" ><img src="img/icons8-instagram-50.svg" width="80" height="50" alt="imagem 2"></a> 
-                    <a href="https://www.google.com/maps/dir//Centro+Comunit%C3%A1rio+Dom+Orione,+Rua+904+Sul+Av+Ns,+4+-+Plano+Diretor+Sul,+Palmas+-+TO,+77023-358" target="_blank" ><img src="img/locali.png" width="50" height="55" alt="localização pequeno cotolengo"></a>
-                </div>               
+            </div>
 
-                <br><br>
-                <hr>
-                <br>
+        </footer>
 
-                <h4>Insira seus dados abaixo e informe no que você deseja ajudar:</h4>
-
-                <p>Obrigatório*</p>
-
-                <br>
-
-                <div class="inputBox">
-                    <input type="text" name="nome" id="nome" class="inputUser" required>
-                    <label for="nome" class="labelInput">Nome completo</label>
-                </div>
-
-                <br><br>
-
-                <div class="inputBox">
-                    <input type="text" name="email" id="email" class="inputUser" required>
-                    <label for="email" class="labelInput">E-mail</label>
-                </div>
-
-                <br><br>
-
-                <div class="inputBox">
-                    <input type="tel" name="telefone" id="telefone" class="inputUser" required>
-                    <label for="telefone" class="labelInput">Telefone</label>
-                </div>
-
-                <br><br>
-
-                <div class="inputBox">
-                    <input type="text" name="instagram" id="intagram" class="inputUser" required>
-                    <label for="instagram" class="labelInput">Instagram</label>
-                </div>
-
-                <br><br>
-
-                <div class="inputBox">
-                    <input type="text" name="cidade" id="cidade" class="inputUser" required>
-                    <label for="cidade" class="labelInput">Cidade</label>
-                </div>
-
-                <br><br>
-
-                <div class="inputBox">
-                    <input type="text" name="estado" id="estado" class="inputUser" required>
-                    <label for="estado" class="labelInput">Estado</label>
-                </div>
-
-                <br><br>
-
-                <div class="inputBox">
-                    <input type="text" name="endereco" id="endereco" class="inputUser" required>
-                    <label for="endereco" class="labelInput">Endereço</label>
-                </div>
-                <br><br>
-                    <label for="data_nascimento"><b>Data de Nascimento:</b></label>
-                    <input type="date" name="data_nascimento" id="data_nascimento" required>
-                <br>
-                <p>Sexo:</p>
-                    <input type="radio" id="feminino" name="genero" value="feminino" required>
-                    <label for="feminino">Feminino</label>
-                <br>
-                    <input type="radio" id="masculino" name="genero" value="masculino" required>
-                    <label for="masculino">Masculino</label>
-                <br>
-                    <input type="radio" id="outro" name="genero" value="outro" required>
-                    <label for="outro">Outro</label>
-
-                <br>
-                
-                <p><b><h3>Àreas de atuação * </h3></b></p>
-                <p><h5>Marque todas que se aplicam:</h5></p>
-
-                    <input type="checkbox" id="comunicacao" name="comunicacao" value="comunicacao" required>
-                    <label for="comunicacao">Comunicação</label>
-                <br>
-                    <input type="checkbox" id="quitanda" name="quitanda" value="quitanda" required>
-                    <label for="quitanda">Quitanda</label>
-                <br>
-                    <input type="checkbox" id="bazar" name="bazar" value="bazar" required>
-                    <label for="bazar">Bazar</label>
-                <br>
-                    <input type="checkbox" id="telemarketing" name="telemarketing" value="telemarketing" required>
-                    <label for="telemarketing">Telemarketing</label>
-                <br>
-                    <input type="checkbox" id="gestaodeprojetos" name="gestaodeprojetos" value="gestaodeprojetos" required>
-                    <label for="gestaodeprojetos">Gestão de Projetos e Captação de Recursos</label>
-                <br>
-                    <input type="checkbox" id="fisioterapeuta" name="fisioterapeuta" value="fisioterapeuta" required>
-                    <label for="fisioterapeuta">Fisioterapeuta</label>
-                <br>
-                    <input type="checkbox" id="psicologo" name="psicologo" value="psicologo" required>
-                    <label for="psicologo">Psicólogo</label>
-                <br>
-                    <input type="checkbox" id="profissionaleducacaofis" name="profissionaleducacaofis" value="profissionaleducacaofis" required>
-                    <label for="profissionaleducacaofis">Profissional de Educação Física</label>
-                <br>
-                    <input type="checkbox" id="enfermeira" name="enfermeira" value="enfermeira" required>
-                    <label for="enfermeira">Enfermeira</label>
-                <br>
-                    <input type="checkbox" id="tecnicoenfermagem" name="tecnicoenfermagem" value="tecnicoenfermagem" required>
-                    <label for="tecnicoenfermagem">Técnico de Enfermagem</label>
-                <br>
-                    <input type="checkbox" id="auxiliarlimpeza" name="auxiliarlimpeza" value="auxiliarlimpeza" required>
-                    <label for="auxiliarlimpeza">Auxiliar de Limpeza</label>
-                <br>
-                    <input type="checkbox" id="monitoria" name="monitoria" value="monitoria" required>
-                    <label for="monitoria">Monitoria</label>
-                <br>
-                    <input type="checkbox" id="transportes" name="transportes" value="transportes" required>
-                    <label for="transportes">Transportes</label>
-                <br>
-                    <input type="checkbox" id="fonaudiologa" name="fonaudiologa" value="fonaudiologa" required>
-                    <label for="fonaudiologa">Fonoaudióloga (o)</label>
-                <br>
-                    <input type="checkbox" id="outros" name="outros" value="outros" required>
-                    <label for="outros">Outros</label>
-
-                <br>
-
-                <p><b><h3>Disponibilidade * </h3></b></p>
-                <p><h5>Marque todas que se aplicam:</h5></p>
-
-                    <input type="checkbox" id="segunda" name="segunda" value="segunda" required>
-                    <label for="segunda">Segunda-Feira</label>
-                <br>
-                    <input type="checkbox" id="terca" name="terca" value="terca" required>
-                    <label for="terca">Terça-Feira</label>
-                <br>
-                    <input type="checkbox" id="quarta" name="quarta" value="quarta" required>
-                    <label for="quarta">Quarta-Feira</label>
-                <br>
-                    <input type="checkbox" id="quinta" name="quinta" value="quinta" required>
-                    <label for="quinta">Quinta-Feira</label>
-                <br>
-                    <input type="checkbox" id="sexta" name="sexta" value="sexta" required>
-                    <label for="sexta">Sexta-Feira</label>
-                <br>
-                    <input type="checkbox" id="sabado" name="sabado" value="sabado" required>
-                    <label for="sabado">Sábado</label>
-                <br>
-                    <input type="checkbox" id="domingo" name="domingo" value="domingo" required>
-                    <label for="domingo">Domingo</label>
-                <br><br><br>
-                <div class="inputBox">
-                    <input type="text" name="observacao" id="observacao" class="inputUser" required>
-                    <label for="observacao" class="labelInput">Observação quanto a resposta anterior</label>
-                </div>
-
-                <br><br>
-
-                <a href="index.html">Voltar</a>
-                
-                <br>
-
-                <input type="submit" name="submit" id="submit">
-            </fieldset>
-        </form>
-    </div>
-</body>
+    </body>
 </html>

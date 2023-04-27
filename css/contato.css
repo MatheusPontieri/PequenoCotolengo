@@ -13,7 +13,7 @@ body{
 .center{
     display: flex;
     position: relative;
-    top: 30px;
+    top: 20px;
     flex-wrap: wrap;
     max-width: 1280px;
     margin:0 auto;
@@ -27,9 +27,14 @@ body{
 
 .image-container{
     position: relative;
-    left: 30%;
+    left: 35%;
 }
-
+.image-container a img{
+    width: 5%;
+    display: inline-block;
+    position: relative;
+    left: 5%;    
+}
 .menu{
     padding-top: 30px;
     width: 60%;
@@ -43,19 +48,15 @@ body{
     margin-right: 30px;
 }
 
-a {
-    color: rgb(251, 52, 17);
-}
-
-.box{
+.boxe{
     color: rgb(10, 10, 10);
     position: relative;
-    top: 450px;                                               /*centralizando o quadrado - vertical*/
-    left: 50%;                                               /*centralizando o quadrado - horizontal*/
-    transform: translate(-50%,-50%);                         /*centralizando o quadrado*/
-    background-color: rgba(161, 139, 243, 0.6);             /* cor de dentro do quadrado*/
-    padding: 15px;                                           /*tamanho da cor dentro do quadrado - altura*/
-    border-radius: 15px;                                     /*arrumando a borda da cor de dentro do quadrado*/
+    top: 400px;                                              /*centralizando o bloco - vertical*/
+    left: 50%;                                               /*centralizando o bloco - horizontal*/
+    transform: translate(-50%,-50%);                         /*centralizando o bloco*/
+    background-color: rgba(161, 139, 243, 0.6);            /* cor de dentro do bloco*/
+    padding: 15px;                                           /*tamanho da cor dentro do bloco - altura*/
+    border-radius: 15px;                                     /*arrumando a borda da cor de dentro do bloco*/
     width: 50%;                                              /*tamanho do quadrado*/
 }
 
