@@ -4,7 +4,7 @@
 ## ✒️ Autores
 
 * Guilherme Henrique Sousa Meireles
-* Kethelen Victoria De Souza Parra
+* Kethelen Victoria de Souza Parra
 * Matheus Pontieri Resende
 * Pedro Vieira Félix da Cunha
 * Yasmin dos Santos Gothe
