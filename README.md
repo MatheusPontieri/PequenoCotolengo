@@ -1,2 +1,10 @@
 # PequenoCotolengo
 Arquivos do projeto Pequeno Cotolengo
+# Autores
+GUILHERME HENRIQUE SOUSA MEIRELES
+KETHELEN VICTORIA DE SOUZA PARRA
+MATHEUS PONTIERI RESENDE
+PEDRO VIEIRA FÉLIX DA CUNHA
+YASMIN DOS SANTOS GOTHE
+![image](https://user-images.githubusercontent.com/80106256/235907799-441d7830-4227-480c-a970-f61b775d4540.png)
+
