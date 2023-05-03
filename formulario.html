@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
         <title>Formulário | PC</title>
         <link rel="shortcut icon" href="img/icon-pequenocotolengo.ico" type="image/x-icon">
-        <link rel="stylesheet" href="css/formulario-2.css"> 
+        <link rel="stylesheet" href="css\formulario-2.css"> 
         <link href="get.html" rel="stylesheet">
     </head>
     <body>
@@ -15,7 +15,7 @@
                 <nav>                   
                     <img src="img/logopequenocotolengo.png" class="navImg" alt="LogoPequenoCotolengo">
                     <div class="menu">
-                        <a href="formulario.html">Formulário</a>
+                        <a href="perguntas.html">Formulário</a>
                         <a href="contato.html" >Contatos</a>
                         <a href="amigo.html">Amigo 10</a>
                     </div>  <!--menu-->
@@ -34,7 +34,7 @@
 
         <section>
             <div class="box">
-                <form>
+                <form action="get.html" method="get">
                     <fieldset>
 
                         <legend id="legend2"><b>INCRIÇÃO PARA VOLUNTÁRIOS</b></legend><br>
@@ -80,7 +80,7 @@
                         <br><br>
 
                         <div class="inputBox">
-                            <input type="text" name="estado" id="estado" class="inputUser" required>
+                            <input type="text" name="estado" id="estado" class="inputUser" required >
                             <label for="estado" class="labelInput">Estado</label>
                         </div>
 
@@ -97,13 +97,13 @@
                                 <input type="date" name="data_nascimento" id="data_nascimento" required>
                             <br><br>
                             <p>Sexo:</p>
-                                <input type="radio" name="genero" value="feminino" required>
+                                <input type="radio" name="genero" value="feminino">
                                 <label for="feminino">Feminino</label>
                             <br>
-                                <input type="radio"  name="genero" value="masculino" required>
+                                <input type="radio"  name="genero" value="masculino">
                                 <label for="masculino">Masculino</label>
                             <br>
-                                <input type="radio"name="genero" value="outro" required>
+                                <input type="radio"name="genero" value="outro">
                                 <label for="outro">Outro</label>
 
                             <br><br>
@@ -182,10 +182,10 @@
                                 <input type="checkbox" id="domingo" name="domingo" value="domingo">
                                 <label for="domingo">Domingo</label>
                         </div>
-                
+
                         <br>
                         <div class="inputBox">
-                            <input type="text" name="observacao" id="observacao" class="inputUser" required>
+                            <input type="text" name="observacao" id="observacao" class="inputUser">
                             <label for="observacao" class="labelInput">Observação quanto a resposta anterior</label>
                         </div>
                         <br>
