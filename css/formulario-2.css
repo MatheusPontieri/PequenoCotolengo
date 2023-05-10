@@ -105,7 +105,7 @@ fieldset{
 .inputUser:valid ~ .labelInput{             /*transição dos titulos das celulas no formilario*/
     top: -20px;
     font-size: 15px;
-    color: rgb(5, 31, 58);
+    color: rgb(2, 15, 29);
 }
 
 .button{
