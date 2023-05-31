@@ -1,7 +1,7 @@
 # ⛪ Pequeno Cotolengo
 Instituição que acolhe pessoas com deficiências múltiplas (físicas e intelectuais) de todas as idades e de qualquer região do estado, que foram abandonadas por suas famílias, sofreram maus tratos ou viviam em situação de risco.
 
-Site do projeto: https://matheuspontieri.github.io/PequenoCotolengo/
+Site do projeto: https://matheuspontieri.github.io/PequenoCotolengo/html /index.html
 
 ## 🚀 Progresso
 
