@@ -1,6 +1,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-image: linear-gradient(to right, rgb(251, 240, 230), rgb(254, 227, 227));
+    width: 50%;
 }
 
 a {
@@ -9,23 +10,24 @@ a {
 
 .box{
     color: rgb(0, 0, 0);
-    position: absolute;
-    top: 81%;
-    left: 50%;
+    position: relative;
+    top: 500px;
+    left: 100%;
     transform: translate(-50%,-50%);
     background-color: rgba(213, 180, 114, 0.6);
     padding: 15px;
     border-radius: 15px;
-    width: 50%;
 }
+
 .image-container {
     width: 50%;
     display: inline-block;
 }
   
 img {
-    width: 20%;
+    width: 35%;
 }
+
 .central {
     text-align: center;
     color: rgb(0, 0, 0);

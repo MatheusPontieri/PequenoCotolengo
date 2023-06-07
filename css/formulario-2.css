@@ -6,11 +6,12 @@
 body{
     font-family: 'Times New Roman', Times, serif;
     background-image: linear-gradient(to right, rgb(244, 233, 247), rgb(216, 234, 243));
-    width: 550px;
+    width: 50%;
     font-size: 18px;
 }
 .topo{
     height: 200px;
+    width: 50%;
     position: relative;
     left: 50%;
 }
@@ -38,7 +39,7 @@ body{
     color: rgb(0, 0, 0);
     position: relative;
     top: -50px;
-    left: 340px;
+    left: 450px;
     font-style: unset;
     font-size: 20px;  
 }
@@ -52,7 +53,7 @@ body{
     color: white;
     position: relative;
     top: 5px;
-    left: 350px;
+    left: 450px;
     background-color: rgba(101, 96, 184, 0.6);
     padding: 15px;
     border-radius: 20px;
@@ -79,7 +80,7 @@ fieldset{
     position: relative;
 }
 
-.inputUser{                               /*estilização dos textos dentro das celulas no formulario*/
+.inputUser{                                     /*estilização dos textos dentro das celulas no formulario*/
     background: none;
     border: none;
     outline: none;                         
@@ -87,11 +88,11 @@ fieldset{
     color: white;
     font-size: 20px;                         
     width: 100%;                            
-    letter-spacing: 2px;                    /*espaçamento entre as letras */
+    letter-spacing: 2px;                        /*espaçamento entre as letras */
     padding-left: 10px;
 }
 
-.labelInput{                               /*estilização dos textos dentro das celulas no formulario*/
+.labelInput{                                    /*estilização dos textos dentro das celulas no formulario*/
     position: absolute;
     top: 0px;
     left: 0px;
@@ -102,7 +103,7 @@ fieldset{
 }
 
 .inputUser:focus ~ .labelInput,
-.inputUser:valid ~ .labelInput{             /*transição dos titulos das celulas no formilario*/
+.inputUser:valid ~ .labelInput{                 /*transição dos titulos das celulas no formilario*/
     top: -20px;
     font-size: 15px;
     color: rgb(2, 15, 29);
