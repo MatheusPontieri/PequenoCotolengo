@@ -8,11 +8,11 @@ Site do projeto: https://matheuspontieri.github.io/PequenoCotolengo/html/index.h
 * Criadas as páginas: Home, Amigo, Contato e Formulário
 * CSS aplicado a todas as páginas
 * Tags semânticas adicionadas às páginas
+* Mesma paleta de cores para todas as páginas
+* Interação no site (JavaScript)
 
 ## 🔮 Futuros updates
 
-* Mesma paleta de cores para todas as páginas
-* Interação no site (JavaScript)
 * Responsividade 
 * Elementos de um formulário preenchido enviados para outra página
 
