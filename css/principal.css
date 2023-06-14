@@ -1,0 +1,515 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 13px;
+    overflow-x: hidden; /* Ignora o que ultrapassar na horizontal*/
+}
+header {
+    height: 100px;
+    background-color: white;
+
+    width: 100%;
+    position: fixed;
+	top: 0;
+	z-index: 100;
+}
+.header {
+    max-width: 1140px; /* 1140 px -> Máximo que conteúdo expandirá lateralmente*/
+    height: 100px;
+    margin: auto; /* Centralizar*/
+    display: flex;
+    align-items: center;
+}
+.logo, .sociais {
+    width: 20%;
+}
+img {
+    width: 100%;
+}
+.menu {
+    width: 50%;
+    flex: 1;
+    background-color: #FDFEFF;
+    display: flex;
+    justify-content: center;
+}
+.menu nav {
+    margin-top: 8px;
+}
+.sociais button {
+    width: 50px;
+    height: 50px;
+    border: none;
+    margin-right: 10px;
+    background-color: #EBF6FF;
+    border-radius: 80px;
+    cursor: pointer;
+}
+.sociais a {
+    text-decoration: none;
+}
+
+.sociais button i{
+    font-size: 20px;
+    color: black;
+}
+
+.menu ul,
+.menu li {
+    list-style: none;
+}
+.menu ul {
+    display: flex;
+}
+.menu li a {
+    color: #4d555e;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    border-radius: 100px;
+    text-decoration: none;
+    padding: 0px 20px;
+    margin: 0px 4px;
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+}
+.menu a:hover {
+    background-color: #F4F6F9;
+    color: #0A0C0D;
+    cursor: pointer;
+}
+
+/* Opção atual do menu */
+.menu .atual a{
+    color: #5129cc;
+    background-color: #F2EDFF;
+}
+.button {
+    display: inline-block;
+    background-color: #B28756;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 10px 30px;
+    margin-top: 30px;
+    border-radius: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+    text-decoration: none;
+}
+button:focus {
+    outline: 0;
+}
+.slidearea a:hover, .section-aboutus--left a:hover, .footer--item.area3 a:hover {
+    background-color: #7a5a35;
+    transition: 0.3s;
+}
+
+            /* main */
+/* Área dos slides*/
+.banner {
+    height: calc(100vh); /* Altura total do monitor - header*/
+    background-color: #E2F2FD;
+    background-image: url('../img/Snapinsta.app_352370074_277489204677487_6917964359754225516_n_1024.jpg');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.banner .slide {
+    width: 100vw;
+    height: 100%;
+    background-color: rgba(0,0,0,0.75);
+}
+.banner .slidearea {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Merriweather';
+    margin-top: 35px;
+}
+.banner h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 50px;
+}
+.banner h1 span {
+    color: #B28756;
+    font-family: sans-serif;
+}
+.banner h2 {
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.banner .sliders-pointers {
+    width: 100vw;
+    height: 20px;
+    position: absolute;
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner .pointer {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #B28756;
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.banner .pointer.active {
+    background-color: #B28756;
+}
+
+/* Quem somos */
+.default {
+    background-color: #FCE9CB;
+    padding-top: 50px;
+    padding-bottom: 50px;   
+}
+.default .section-title, .default .section-desc  {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.default .section-title {
+    font-size: 20px;
+    font-family: 'Merriweather';
+}
+.default .section-desc {
+    font-size: 12px;
+    color: #6c757d;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.default .section-body {
+    max-width: 1140px;
+    margin: auto;
+}
+/* Tema 1 */
+.default.light {
+    background-color: white;
+}
+.default.light .section-title,
+.default.light .section-body {
+    color: black;
+}
+/* Tema 2 */
+.default.dark {
+    background-color: #EBF6FF;
+}
+.default.dark .section-title,
+.default.dark .section-body {
+    color: black;
+}
+
+
+/* CSS DE ÁREAS ESPECÍFICAS */
+.section-aboutus {
+    display: flex;
+}
+.section-aboutus--left {
+    flex: 1;
+}
+.section-aboutus--left p {
+    font-size: 16px;
+    font-family: 'Nunito Sans', sans-serif;
+    line-height: 28px;
+}
+.section-aboutus--right {
+    width: 500px;
+    text-align: center;
+}
+.section-aboutus--right img {
+    height: 380px;
+    width: auto;
+    box-shadow: 1px 1px 10px #333;
+}
+.section-aboutus--right.nova img {
+    width: 500px;
+    height: auto;
+    box-shadow: 1px 1px 10px #333;
+}
+
+/* Valores*/
+.section-services {
+    display: flex;
+}
+.section-service {
+    flex: 1;
+    text-align: center;
+    border-right: 1px solid #333;
+    padding: 15px;
+}
+.section-service:first-child {
+    border-left: 1px solid #333;
+}
+.section-service h4 {
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.section-service img {
+    width: 95px;
+    height: 105px;
+}
+.section-service p {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #82909d;
+}
+
+/* Mapa */
+.section-map {
+    background-image: url(../img/mapa-cidade.png);
+    background-size: cover;
+    background-position: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.section-map--area {
+    width: 100vw;
+    max-width: 1140px;
+    margin: auto;
+}
+.section-map--info {
+    width: 50%;
+    padding: 30px;
+    background-color: white;
+    color: black;
+}
+.section-map--info-item {
+    display: flex;
+    align-items: center;
+    color: #999;
+    margin-bottom: 10px;
+}
+.section-map--info-item-img {
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin-right: 10px;
+}
+.section-map--info-item-img img {
+    width: 30px;
+    height: auto;
+}
+
+/* Rodapé */
+
+footer {
+    background-color:#FDF9C8;
+    padding:15px;
+    font-family: 'Merriweather';
+    font-size: 16px;
+}
+.footer--area {
+    max-width:1140px;
+    margin:auto;
+    color: black;
+    display:flex;
+}
+.footer--item.area1{
+    display: flex;
+    justify-content: center;
+}
+
+.footer--item {
+    flex:1;
+}
+.footer-social {
+    display:flex;
+}
+
+.footer-social a {
+    display:block;
+    width:25px;
+    height:25px;
+    background-color:#333;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:13px;
+    margin-right:10px;
+}
+.footer-social a:hover {
+    background-color:#B28756;
+}
+.footer-social img {
+    height:10px;
+}
+.footer--item.area2 {
+    padding:0 10px 10px 10px;
+    display: inline-block;
+}
+.footer--item-area2-img {
+    width: auto;
+    height: 100%;
+    text-align: center;
+    padding: 5px;
+    margin-right: 1px;
+}
+.footer--item-area2-img img {
+    padding-top: 35px;
+    width: 80px;
+    height: auto;
+}
+.footer--item.area3 form {
+    text-align:center;
+    padding:20px;
+}
+.footer--item.area3 input {
+    width:100%;
+    height:40px;
+    border:0;
+    background:transparent;
+    border-bottom:1px solid #CCC;
+    outline:0;
+    color:black;
+    font-size:14px;
+    text-align:center;
+    margin-bottom: 5px;
+}
+
+
+/* Conjunto de redes rodapé*/
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+  }
+  
+  .up {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+  }
+  
+  .down {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+  }
+  
+  .card1 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 90px 5px 5px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+  }
+  
+  .instagram {
+    margin-top: 1.5em;
+    margin-left: 1.2em;
+    fill: #cc39a4;
+  }
+  
+  .card2 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px 90px 5px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+  }
+  
+  .twitter {
+    margin-top: 1.5em;
+    margin-left: -.9em;
+    fill: #03A9F4;
+  }
+  
+  .card3 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px 5px 5px 90px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+  }
+  
+  .facebook {
+    margin-top: -.6em;
+    margin-left: 1.2em;
+    fill: #0779E9;
+  }
+  
+  .card4 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px 5px 90px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+  }
+  
+  .whatsapp {
+    margin-top: 0.9em;
+    margin-left: 0.9em;
+    fill: #42C553;
+  }
+  
+  .card1:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #cc39a4;
+  }
+  
+  .card1:hover .instagram {
+    fill: white;
+  }
+  
+  .card2:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #03A9F4;
+  }
+  
+  .card2:hover .twitter {
+    fill: white;
+  }
+  
+  .card3:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #0779E9;
+  }
+  
+  .card3:hover .facebook {
+    fill: white;
+  }
+  
+  .card4:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #42C553;
+  }
+  
+  .card4:hover .whatsapp {
+    fill: white;
+}
