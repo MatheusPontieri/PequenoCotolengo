@@ -18,6 +18,7 @@ Site do projeto: https://matheuspontieri.github.io/PequenoCotolengo/html/index.h
 
 ## ✒️ Autores
 
+* Guilherme Henrique Sousa Meireles
 * Kethelen Victoria de Souza Parra
 * Matheus Pontieri Resende
 * Pedro Vieira Félix da Cunha
